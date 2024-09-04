@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .navbar img{
+    height: 70%;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  .nav-item{
+    padding-top: 10px;
+    color: black;
+  
+  }
+  .nav-item a
+  {
+    padding: 10px 15px;
+  }
+  .nav-item a:hover
+  {
+    padding: 10px 15px;
+    background-color: orangered;
+    border-radius: 100px;
+    color:white;
+  }
+  .nav-item a{
+    color: black;
+    text-decoration: none;
+  }
+
+  
+  .icon span{
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 0px black;
+    padding-top: 15px;
+    padding-left: 10px;
+  
+  }
+  .icon span:hover{
+    background-color: brown;
+    color: #fff;
+  }
+  .dropdown-item
+  {
+    border-bottom: 1px solid darkgray;
+  }
+  .content-2{
+    width: 100%;
+    background-image: url(https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2016/06/graphic-web-courses.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .content-2 h5{
+    padding-left: 15px;
+  }
+
+  .content-3 img{
+    padding-top: 20px;
+  }
+  
+  .content-4{
+    padding-bottom: 40px;
+  }
+  .abc-2:hover{
+   text-decoration: underline;
+  }
+  .abc-3:hover{
+   text-decoration: underline;
+  }
+  .content-5{
+    background-color: black;
+  }
+  .content-6{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .content-6 i{
+    font-size: 4vh;
+  }
+   .content-6 p{
+    font-size: 4vh;
+  }
+  .content-6 h1{
+    font-size: 8vh;
+    padding-top: 5px;
+  } 
+ 
+  .content-7{
+    width: 100%;
+    background-image: url(https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+   .content-7 span{
+    padding-left: 400px; 
+    
+    
+  }
+  .content-7 p{
+    padding-left: 50px;
+    
+  } 
+  .content-7 strong{
+    padding-left: 500px;
+    
+  } 
+  .content-10{
+    width:100%;
+    background-image: url(https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2016/07/orange-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .abc:hover
+  {
+    text-decoration: underline;
+  }
+  .content-11{
+    background-color: black;
+  }
+  .content-11 i{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 0px #fff;
+    display: flex;
+  
+  }
+  /* .content-11 img{
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+  .content-11 p{
+    padding-left: 100px;
+  } */
+  .list:hover
+  {
+    text-decoration: underline;
+  }
+  .home a{
+    color: orangered;
+  }
+  .home:hover{
+    color: #fff;
+  }
+   
+</style>
+<body>
+
+    <!-- This is section-1 start from here -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2016/06/graphic-designing-training-mumbai-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item me-3 home">
+              <a class="" aria-current="page" href="#"><span><i class="fa fa-home me-2"></i><b>Home</b></span></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="" href="#"><i class="fa fa-users me-2"></i><b>About</b></a>
+            </li>
+            <li class="nav-item dropdown me-3">
+            <a class=" " href="#" class="dropdown-toggle"data-bs-toggle="dropdown"> <i class="fa fa-graduation-cap me-2"></i><b>Courses</b></a>
+            <ul class="dropdown-menu dropdown-menu-white">
+              <li class="dropdown-item"><b>Graphic Designing</b></li>
+              <li class="dropdown-item"><b>UX Design Course Modules</b></li>
+              <li class="dropdown-item">Master <b>Visual Effects FX & Video Premiere</b></li>
+              <li class="dropdown-item"><b>AUTOCAD-REVIT-3D MAX</b></li>
+              <li class="dropdown-item"><b>Graphic & Web Design Diploma</b></li>
+              <li class="dropdown-item"><b>1.5 Years MAYA,3D & Multimedia Diploma</b></li>
+              <li class="dropdown-item">Advance <b>PHOTOSHOP</b></li>
+              <li class="dropdown-item"><b>Fashion Designing </b>with Graphics</li>
+              <li class="dropdown-item">Master <b>WEB DESIGNING COURSE</b></li>
+              <li class="dropdown-item">Advance <b>ILLUSTRATOR</b></li>
+              <li class="dropdown-item">Advance <b>Adobe In Design</b></li>
+              <li class="dropdown-item">Digital Marketing Diploma Course</li>
+          </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="" href="#"><i class="fa-regular fa-circle-play me-2"></i><b>Student Projects</b></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="" href="#"><i class="fa-sharp fa-solid fa-location-dot me-2"></i><b>Contact</b></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="" href="#"><i class="fa fa-inr me-2"></i><b>AutoCAD</b></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="" href="#"><i class="fa fa-phone me-2"></i><b>INQUIRY</b></a>
+            </li> 
+          </ul>
+          <div class="icon ps-3">
+          <span class="fab fa-youtube      text-black" ></span>
+          <span class="fab fa-instagram    text-black"></span>
+          <span class="fab fa-google-plus  text-black"></span>
+          </div>
+        </div> 
+      </div>
+    </nav>
+     <!-- This is section-1 end from here -->
+
+
+      <!-- This is section-2 start from here -->
+        <div class="content-2">
+        <div class="container">
+            <h1 class="text-primary pb-1"><b>GRAPHIC & UI UX DESIGN COURSES</b></h1>
+              <h5 class="pb-3 text-muted">Professional & Career Oriented Courses In Demand!</h5>
+              <div class="btn btn-danger me-2 mt-4"style="border-radius: 10px;">Students Projects</div> 
+              <div class="btn btn-outline-dark me-2 mt-4">Contact Us</div>
+              <div class="btn btn-danger me-2 mt-4">DOWNLOAD LATEST BROCHURE</div>
+        </div>
+       </div>
+ 
+
+       <!-- This is section-2 end from here -->
+
+       <!-- This is section-3 start from here -->
+
+   <div class="content-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color: red;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/graphic-design-course.png" alt="" ><br>
+          <span class="text-white list ms-4">Graphic Designing Course</span>
+          
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color:green;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/web-design-course-mumbai.png" alt=""><br>
+          <span class="text-white list ms-4">AUTOCAD REVIT 3D MAX</span>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color: yellow;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/web-design-course.png" alt=""><br>
+          <span class="text-white list ms-4">WEB + Graphic Designing</span>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color: blue;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/2d-animation-course.png" alt=""><br>
+          <span class="text-white list ms-4">UI UX Design Course</span>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color: orangered;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/web-design-course-mumbai.png" alt=""><br>
+          <span class="text-white list ms-4">Master Web Designing</span>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 py-3 text-center" style="background-color: skyblue;">
+          <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/multimedia-course.png" alt="" ><br>
+          <span class="text-white list ">2 Year ANIMATION</span>
+
+        </div>
+
+      </div>
+      
+      </div>
+      
+      
+    </div>
+     
+       <!-- This is section-3 end from here -->
+
+       <!-- This is section-4 start from here -->
+         <div class="content-4">
+          <div class="container-fluid text-center pt-5">
+            <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/graphic-image.jpg" alt="" style="width: 100%;">
+            <h1 class="pt-4"><b>Graphic Design</b> Courses are Professional & well researched</h1>
+            <h4 class="text-muted pt-2">Trained over 13947+ Successful Students since past 30+ years</h4>
+            <div class="row">
+            <div class="col-lg-6 mt-3">
+              <div class="row">
+              <div class="col-sm-11 text-end">
+              <h5 class="abc-2">GRAPHIC DESIGN COURSE</h5>
+              <p class="text-muted text-end">Diploma in Graphic Design includes Adv. Graphics for Web, Brochure Designs,<br> Ads, Magazines, Photo-touchups, Hoardings.<br>
+              <span style="color: orangered;" class="abc-3">Graphic Design Courses Details</span>
+              </p>
+              </div>
+              <div class="col-sm-1">
+                <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/web-design.png" alt="">
+              </div>
+              </div>
+              </div>
+
+              <div class="col-lg-6 mt-3">
+                <div class="row">
+                  <div class="col-sm-1">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/graphic-web-design.png" alt="">
+                  </div>
+                  <div class="col-sm-11 text-start">
+                    <h5 class="abc-2">AUTOCAD REVIT 3DMAX DIPLOMA</h5>
+                    <p class="text-muted">Diploma in AUTOCAD 2D & 3D, REVIT Architecture, BIM, 3D MAX, Sketchup Pro,<br>
+                    <span style="color: orangered;" class="abc-3">DOWNLOAD AUTOCAD Course Syllabus</p></span>
+                  </div>
+                  </div>
+                  </div>
+             
+
+              <div class="col-lg-6 mt-5">
+                <div class="row">
+              <div class="col-sm-11 text-end">
+                <h5 class="abc-2">UI UX DESIGNING COURSE</h5>
+                <p class="text-muted text-end">Learn Adobe XD, Figma and skills /tools required to become a UI UX designer<br>Work with experts who have years of industry experience
+                </p>
+                </div>
+                <div class="col-sm-1">
+                  <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/web-design.png" alt="">
+                </div>
+                </div>
+                </div>
+
+                
+              <div class="col-lg-6 mt-5">
+                <div class="row">
+                  
+              <div class="col-sm-1">
+                <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/graphic-video.png" alt="">
+              </div>
+              <div class="col-sm-11 text-start">
+                <h5 class="abc-2">VIDEO PREMIERE PRO & VFX COURSE</h5>
+                <p class="text-muted">Diploma in VFX and Video Premiere Pro includes Special effects, Video Editing, <br>After Effects.<br>
+                <span style="color: orangered;" class="abc-3"> Video Editing Course Fees in Mumbai</p></span>
+              </div>
+            </div>
+          </div>
+                <div class="col-lg-6 mt-5">
+                  <div class="row">
+                <div class="col-sm-11 text-end">
+                  <h5 class="abc-2">2 YEAR ANIMATION DIPLOMA</h5>
+                  <p class="text-muted text-end">AD3AG : Graphic Designing, 3D Animation, Visual Effects, Compositing, <br>Mudbox, After Effects, Video Editing with Live Projects<br>
+                  <span style="color: orangered;" class="abc-3">Animation Courses in Mumbai Fees
+                  </p></span>
+                  </div>
+                  <div class="col-sm-1">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/multimedia.png" alt="">
+                  </div>
+            </div>
+          </div>
+
+              <div class="col-lg-6 mt-5">
+                <div class="row">
+
+              <div class="col-sm-1">
+                <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/Animation-Icon.png" alt="">
+              </div>
+              <div class="col-sm-11 text-start">
+                <h5 class="abc-2">DIPLOMA 3D ANIMATION COURSE</h5>
+                <p class="text-muted">Diploma in Graphic Design includes Sketching, storyboarding, modeling,<br> texturing, rigging, compositing, animation, broadcasting.<br>
+                <span style="color: orangered;" class="abc-3">Animation Courses Fees</p></span>
+              </div>
+              </div>
+              </div>
+
+
+
+
+          </div>
+
+        </div>
+        </div> 
+
+        <!-- This is section-4 end from here -->
+
+        <!-- This is section-5 start from here -->
+         <div class="content-5">
+          <div class="container-fluid py-5">
+            <div class="row">
+              <div class="col-lg-8">
+                <h3 class="text-white text-center">Indepth & Advance Graphic Design Course + Live Projects</h3>
+              </div>
+            
+            <div class="col-lg-4 pt-2 text-center">
+              <div class="btn btn-danger ">DOWNLOAD BROCHURE</div>
+            </div>
+          </div>
+         </div>
+         </div> 
+
+         <!-- This is section-5 end from here -->
+
+         <!-- This is section-6 start from here -->
+
+           <div class="content-6">
+            <div class="container">
+            <div class="row pt-3 pb-3">
+              <div class="col-lg-3 col-md-6 mb-2">
+                <i class="fa-solid fa-user d-flex justify-content-center"></i>
+                <h1 class="d-flex justify-content-center">13,947+</h1>
+                <h5 class="d-flex justify-content-center text-muted">Professionals Trained</h5>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-2">
+                <i class="fa-solid fa-star d-flex justify-content-center"></i>
+                <h1 class="d-flex justify-content-center">30</h1>
+                <h5 class="d-flex justify-content-center text-muted">Years in Training</h5>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-2">
+                <i class="fa-solid fa-chart-column d-flex justify-content-center"></i>
+                <h1 class="d-flex justify-content-center">9.1+</h1>
+                <h5 class="d-flex justify-content-center text-muted">Rating Given by Students</h5>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-2">
+                <i class="fa-solid fa-users d-flex justify-content-center"></i>
+                <h1 class="d-flex justify-content-center">1173+</h1>
+                <h5 class="d-flex justify-content-center text-muted">Batches</h5>
+              </div>
+            </div>
+            </div>
+
+          </div>
+ 
+
+          <!-- This is section-6 end from here -->
+
+
+          <!-- This is section-7 start from here -->
+            
+             <div class="content-7" style="height: 60vh;">
+              <div class="container">
+                <h2 class="text-center pt-5 text-white"><b>Our</b> Student Testimonial</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 60vh;"data-aos="fade-down" data-aos-duration="300">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner text-center pt-4">
+                <div class="carousel-item active">
+                  <p class="pb-2 text-white" style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error vel omnis libero deserunt voluptatum quasi. Alias non distinctio magni, nihil fugit atque consequatur adipisci commodi tenetur culpa quae quidem quas repudiandae illum vero est soluta!</p>
+                  <p class=""  style="color: rgb(230, 226, 226);">Mr. PB Lalrinchhana</p>
+                  <p class="" style="color: rgb(230, 226, 226);">Advance Graphic Suite & Web Designing Diploma</p>
+      
+                </div>
+                <div class="carousel-item">
+                    <p class="pb-2 text-white" style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error vel omnis libero deserunt voluptatum quasi. Alias non distinctio magni, nihil fugit atque consequatur adipisci commodi tenetur culpa quae quidem quas repudiandae illum vero est soluta!</p>
+                    <p class=""  style="color: rgb(230, 226, 226);">Mr. Uwais Ali Sayed</p>
+                    <p class="" style="color: rgb(230, 226, 226);">Graphic Suite, Flash & Web Designing Diploma</p>         
+                   </div>
+                <div class="carousel-item">
+                  <p class="pb-2 text-white" style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error vel omnis libero deserunt voluptatum quasi. Alias non distinctio magni, nihil fugit atque consequatur adipisci commodi tenetur culpa quae quidem quas repudiandae illum vero est soluta!</p>
+                  <p class=""  style="color: rgb(230, 226, 226);">Ms.Shivangi Shah</p>
+                  <p class="" style="color: rgb(230, 226, 226);">Advance Graphic Suite & Web Designing Diploma</p>          
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      
+           </div> 
+           </div>
+           
+ 
+           <!-- This is section-7 end from here -->
+
+
+           <!-- This is section-8 start from here -->
+            <div class="content-8 pt-3">
+              <div class="container">
+                <h3 class="text-center">Softpro Graphic & Web Academy is happy excited about our students</h3>
+                <h5 class="text-danger text-center">13,947+ Students have enrolled for our courses. Meet our students.</h5>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 pt-2">
+                    <div class="card">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/softpro-studetn-6-1.jpg" alt="">
+                  </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 pt-2">
+                    <div class="card">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/softpro-studetn-3.jpg" alt="">
+                  </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 pt-2">
+                    <div class="card">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/softpro-studetn-5.jpg" alt="">
+                  </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 pt-2">
+                    <div class="card">
+                    <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2015/05/softpro-studetn-1.jpg" alt="">
+                  </div>
+                  </div>
+                  <span style="font-size: 4vh; text-align: center; padding-top: 20px;">Professional & well researched <b>Graphic Design</b> Courses</span>
+
+                  <span class="pt-3">Graphic Designing Training Studio is a part of Softpro Computers, Founded in 1992, Softpro Computers, has been imparting Computer Training Courses to some of the largest Multi National Companies of India.Graphic Designing Training Studio is one of the Best Graphic Designing Training Institute.We at Graphic Designing Training Studio, train you on ALL the aspects for Graphic Designing,<br>Fashion Designing, Web & Gaphic Designing, Graphic Design & 2D Animation…. the tips and tricks …. which will lead you to a successful career or business!
+
+                    “We wish you Success and happiness in whatever you do ….. where ever you join….”<br>
+                    
+                    Top Class computer training courses are provided in our centers. Our Computer Training Institute has over 100 Computers in total in all our computer training classes.</span>
+                </div>
+                <div class="text-center pt-4">
+                    <div class="btn btn-danger">Read More</div>
+                    </div>
+                    <div class="text-center pt-4">
+                      <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2019/01/certipoint-autodesk-adobe-software.jpg" alt="" style="width: 100%;"> 
+                    </div>
+                     <hr class="text-danger">
+                  
+              </div>
+            </div>
+
+            <!-- This is section-8 end from here -->
+
+
+             <!-- This is section-9 start from here -->
+               <div class="content-9">
+                <div class="container">
+                  <span style="font-size: 4vh; padding-left: 80px;"><b>INSTANT</b> INQUIRY</span>
+                  <div class="row pb-4">
+                    <div class="col-lg-2 col-md-6 pt-3" >
+                      <input class="ps-2 form-control" type="text" placeholder="Your name*">
+                      </div>
+                      <div class="col-lg-2 col-md-6 pt-3" >
+                      <input class="ps-2 form-control" type="text" placeholder="Your email address*">
+                      </div>
+                      <div class="col-lg-2 col-md-6 pt-3" >
+                      <input class="ps-2 form-control" type="text" placeholder="Your mobile*">
+                      </div>
+                      <div class="col-lg-2 col-md-6 pt-3" >
+                      <input class="ps-2 form-control" type="text" placeholder="Human Verification*">
+                      </div>
+                      <div class="col-lg-2 col-md-6 pt-3" >
+                        <b>B 4 5 Y</b>
+                        </div>
+                      <div class="col-lg-2 col-md-6 pt-3">
+                        <div class="btn btn-danger">Request Call Back</div>
+                        </div>
+                    </div>
+                  </div>
+                </div> 
+            
+              <!-- This is section-9 end from here -->
+
+              <!-- This is section-10 start from here -->
+                <div class="content-10">
+                <div class="container">
+                  <div class="row pb-5">
+                    <div class="col-lg-9 pt-5">
+                      <p><b>100% Practical Training on</b> Graphic Design, UI UX Courses, Video Editing, VFX. <b>Work on Live Projects. Students Presentation on Graphic & UI UX</b> Designing help them Get Better Jobs. <b>100% INTERNSHIP & JOB Assistance.</b> We design and provide meaningful course content that focuses not just on software functionality, but also on how to get real work done. All Our Training Material and the Practice Exercises are developed in-house and are specifically tailored based on industry needs.<br>
+
+                      <b>We have over 100+ Computers in total</b>, spread over 3 Centres ! We have the Concept of One Computer One Student, And Our training sessions are 100% Practical, Offline and Online. All the Classrooms are Centrally Air-conditioned and we maintain a clean and neat learning environment. All Our 3 Centres are Located in the PRIME Locations of Mumbai. Course <b>Offering Hands on Experience on Live Projects & 100% Internship & Job Assistance.</b></p>
+                      <div class="row">
+                        <div class="col-sm-6">
+
+                          <div class="" style="padding-top: 30px; font-size: 3vh;">
+                            <p>Dadar West – Matunga Rd West</p>
+                            </div>
+                              <p style="font-size: 4vh;"><b>9833900330</b></p>
+                              <span class="fas fa-map-marker-alt text-danger"></span>
+                              <span><b>Address:</b>B/2, Vimal Udyog Bhavan, 1st Flr, Opp. STARCITY Cinema,<br> Near Mahalaxmi Society, 5 Min Walk from Matunga (West) Station.</span>
+                                
+
+                          <div class="" style="padding-top: 30px; font-size: 3vh;">
+                          <p><b>Thane</b> West Nr Station</p>
+                          </div>
+                          <p style="font-size: 4vh;"><b>9833900335</b></p>
+                          <span class="fas fa-map-marker-alt text-danger"></span>
+                            <span><b>Address:</b>401, Shreeji Ashish Society, Lohar Ali Rd, near Bhanushali<br> Hospital, Thane – 400601</span>
+                                    
+
+                            </div>
+                        
+                        <div class="col-sm-6">
+                          <div class="" style="padding-top: 30px; font-size: 3vh;">
+                            <p>Andheri West</p>
+                            </div>
+                            <span style="font-size: 4vh;"><b>9820936176</b></span>
+                            <p>Mobile : 9324347326<br>
+                            Landline : 26700893</p>
+
+                            <span class="fas fa-map-marker-alt text-danger"></span>
+                            
+                            
+                              <span><b>Address:</b>PEARL PLAZA , 7th Floor, Office No.704, Just OUTSIDE ANDHERI WEST STATION - NEXT TO new MCDONALD. ONLY 1 Min.Walk from Andheri (W) Station, Mumbai- 400058.</span>
+                              
+                              
+                              <div class="">
+                                <span> <span class="fas fa-envelope-open text-danger"></span><b class="ms-2">Email:</b>softproedu@gmail.com</span>
+                                </div>
+
+                       </div>
+                       
+                     </div>
+                   </div>
+                   <div class="col-lg-3 pt-5">
+                    <span style="font-size: 4vh;">Other Courses</span>
+                    <div class="row">
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">UI UX Design Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Advance Excel Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">VFX After Effects Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Video Editing Adobe Premiere Pro</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Autocad Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">3D Max Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">REVIT Architecture courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Google Sketchup Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Advance Digital Marketing</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Master Digital Marketing</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Content Writing Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">SEO Courses</p>
+                      </div>
+                      <div class="col-1">
+                        <span class="fa-solid fa-caret-right text-danger"></span>
+                      </div>
+                      <div class="col-11">
+                        <p class="abc">Advance Digital Marketing Courses</p>
+                      </div>
+                     </div>
+                   </div>
+                </div>  
+             </div>
+           </div>
+                  
+
+               <!-- This is section-10 end from here -->
+
+
+               <!-- This is section-11 start from here -->
+
+                 <div class="content-11">
+                  <div class="container py-3 text-center">
+                    <div class="d-md-flex align-items-center justify-content-between">
+                      <div class="d-md-flex align-items-center"> 
+                        <div class="">  
+                      <img src="https://www.graphicdesigningcourses.in/graphicdesign/wp-content/uploads/2016/06/graphic-favicon-logo.png" alt="">
+                      <p class="text-white">Designing</p>
+                      </div>
+                      <div class="">
+                        <p class="text-white"><span style="color: orangered;">Copyright - 1996-2027 </span> <span style="color: orangered;">: Design by</span> Webstrack.com</p>
+                      </div>
+                      </div>
+                      
+                      <div class="icon d-flex  justify-content-center">
+                        <i class="fab fa-youtube      text-white"></i>
+                        <i class="fab fa-instagram    text-white"></i>
+                        <i class="fab fa-google-plus  text-white"></i>
+                        </div>
+                  </div>
+                  </div>
+                 </div> 
+
+
+                  <!-- This is section-11 end from here -->
+
+
+      
+
+</body>
+</html>
